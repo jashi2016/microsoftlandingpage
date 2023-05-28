@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+:root{
+  --primary-color:#f1f3f6;
+}
+
+/*header*/
+header{
+  background-color: var(--primary-color);
+  height: 60px;
+}
+
+header .nav-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1248px;
+  margin-left: 100px;
+}
+
+header .nav-container .logo{
+  display: flex;
+  min-width: 137px;
+}
+
+header .nav-container .logo img{
+  width: 100px;
+}
+
+.search1{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search2{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header .search1 .search-container{
+  width: 548px;
+  height: 36px;
+  display: flex;
+}
+
+header .search2 .search-container2{
+  width: 648px;
+  height: 36px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+header .become-seller{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin:0 10px;
+  color: black;
+  font-size: 12px;
+  font-weight:lighter;
+}
+
+header .become-seller svg{
+  margin-left: 8px;
+  color: black;
+  font-weight: lighter;
+}
+header .become-seller img{
+  margin-left: 8px;
+}
+header .kart svg{
+  rotate: -90deg;
+}
+
+/*Section - 1*/
+.section-1{
+  height: 468px;
+  width: 100%;
+}
+
+.section-1 .image-gallery{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP5-1920x600");
+}
+
+.section-1 .container{
+  width: 35%;
+  height: 200px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.section-1 .container div,p,h1{
+  margin: 20px;
+}
+
+.section-1 .container p{
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.section-1 .container .buttons button{
+  height: 40px;
+  font-weight: bolder;
+  width:200px;
+  color: white;
+  font-size: 16px;
+}
+
+.section-1 .container .buttons .buttons1{
+  background-color: rgb(66, 141, 212);
+}
+.section-1 .container .buttons .buttons2{
+  border: none;
+  background: none;
+  color: black;
+}
+
+.section-1 .container .buttons svg{
+  rotate: 180deg;
+}
+
+/*Section - 2*/
+.section-2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 .section2-container{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-2 .section2-container .items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px auto ;
+}
+
+.section-2 .section2-container .items img{
+  width: 50px;
+}
+
+.section-2 .section2-container .items img{
+  margin: 10px;
+}
+.section-2 .section2-container .items a{
+  margin: 10px;
+}
+
+.section-2 .section2-container .items a{
+  color: rgb(36, 128, 209);
+}
+
+
+/* Section-3*/
+.section-3{
+  display: flex;
+  width: 100%;
+}
+
+.section-3 .section3-container{
+  display: flex;
+  margin: 0 60px;
+  width: 100%;
+}
+
+.section-3 .section3-container .cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3 .section3-container .cards .card{
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  justify-content: space-between;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.section-3 .section3-container .cards .card img{
+  margin: 10px 0;
+  width: 330px;
+  height: 185px;
+}
+
+.section-3 .section3-container .cards .card h1{
+  margin: 10px 0;
+}
+
+.section-3 .section3-container .cards .card a{
+  margin: 10px 0;
+  color: rgb(36, 128, 209);
+}
+
+.section-4{
+  width: 100%;
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 .image-gallery{
+  width: 92%;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-Light-Background:VP5-1596x600");
+  height: 600px;
+}
+
+.section-4 .image-gallery .container{
+  width: 25%;
+  position: relative;
+  left: 70%;
+  top: 35%;
+}
+
+.section-4 .image-gallery .container p{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.section-4 .image-gallery .container .buttons button{
+  margin: 0 20px;
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: rgb(66, 141, 212);
+  border: none;
+  color: white;
+}
+.business{
+  margin: 80px 0 0px 60px;
+}
+
+.section-6 .section6-container{
+  margin: 40px 0 0 42px;
+  display: flex;
+  align-items: center;
+}
+
+.section-6 .section6-container img{
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.backtotop{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.backtotop button{
+  margin: 0 20px 10px 0px;
+  width: 130px;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: none;
+}
+
+.section7{
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(238, 236, 236, 0.743);
+}
+
+.section7-container{
+  margin: 60px 60px 0 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists h3{
+  color: gray;
+  margin: 10px 0;
+}
+
+.lists a{
+  margin: 10px 0;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 10px;
+  color: gray;
+}
+
+.footer-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0px 40px;
+  color: gray;
+}
+
+.footer1{
+  width: 70%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer1 img{
+  width: 15px;
+  height: 15px;
+}
+
+.con2{
+  display: flex;
+}
+
+.footer2{
+  font-size: 10px;
+  width: 60%;
+  display: flex;
+}
